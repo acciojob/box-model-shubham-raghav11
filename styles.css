@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+  .traffic-light {
+            width: 350px;
+            padding: 20px;
+            margin: 50px auto;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 30px;
+            background-color: lightgray;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        /* Circle Styling */
+        .circle {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .red {
+            background-color: red;
+        }
